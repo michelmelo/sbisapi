@@ -1,0 +1,27 @@
+{
+    "name": "michelmelo/sbisapi",
+    "description": "Boilerplate package for creating other packages.",
+    "keywords": ["template", "composer", "package"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Darwin Biler",
+        "email": "buonzz@gmail.com"
+    }],
+    "type": "library",
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "michelmelo\\sbisapi\\": "src/"
+        }
+    },
+     "autoload-dev": {
+        "psr-4": {
+            "michelmelo\\sbisapi\\": "src/"
+        }
+    }
+}
